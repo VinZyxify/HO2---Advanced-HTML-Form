@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .form-container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .form-row {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <p>Please choose your size of your <strong>T-shirt</strong> from the options below:</p>
+
+        <div class='form-row'>
+            <label for='t-shirt'>T-Shirt Size</label>
+            <select id='t-shirt' name='t-shirt'>
+                <option value='xs'>Extra Small</option>
+                <option value='s'>Small</option>
+                <option value='m'>Medium</option>
+                <option value='l'>Large</option>
+                <option value='other'>Other (please specify your size)</option>
+            </select>
+        </div>
+
+    </div>
+</body>
+</html>
